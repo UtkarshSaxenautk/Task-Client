@@ -1,0 +1,112 @@
+/* Updated CSS for ColumnContainer */
+.bg-purple {
+    background: #7f00ff;
+    /* Purple background */
+}
+
+.bg-blue {
+    background: #0070f3;
+    /* Blue background */
+}
+
+/* Column title */
+.column-title {
+    background: #7f00ff;
+    /* Purple background */
+    color: #fff;
+    /* White text color */
+    font-size: 16px;
+    height: 60px;
+    cursor: grab;
+    padding: 10px;
+    font-weight: bold;
+    border: 4px solid #0070f3;
+    /* Blue border */
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-title input {
+    background: #000;
+    /* Black input background */
+    border: 2px solid #ff69b4;
+    /* Pink border for input */
+    border-radius: 4px;
+    color: #fff;
+    /* White text color */
+    outline: none;
+    padding: 2px;
+    width: 100%;
+}
+
+/* TrashIcon */
+.trash-icon {
+    stroke: #ccc;
+    /* Light gray icon color */
+}
+
+.trash-icon:hover {
+    stroke: #fff;
+    /* White icon color on hover */
+}
+
+/* Add task button */
+.add-task-button {
+    border: 2px solid #0070f3;
+    /* Blue border */
+    color: #0070f3;
+    /* Blue text color */
+    padding: 10px;
+    cursor: pointer;
+    background: #fff;
+    /* White background */
+    transition: background 0.3s, color 0.3s;
+}
+
+.add-task-button:hover {
+    background: #0070f3;
+    /* Blue background on hover */
+    color: #fff;
+    /* White text color on hover */
+}
+
+/* Modal styles */
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #fff;
+    /* White background */
+    border: 2px solid #000;
+    /* Black border */
+    box-shadow: 24;
+    padding: 16px;
+}
+
+.modal-label {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.modal-input {
+    border: 2px solid #0070f3;
+    /* Blue border for input */
+    padding: 4px;
+}
+
+.modal-submit-button {
+    background: #0070f3;
+    /* Blue background */
+    color: #fff;
+    /* White text color */
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.modal-submit-button:hover {
+    background: #7f00ff;
+    /* Purple background on hover */
+}

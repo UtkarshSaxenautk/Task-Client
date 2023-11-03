@@ -1,0 +1,54 @@
+/* Updated CSS for TaskCard */
+.task {
+    background: #f2f2f2;
+    /* Change background color */
+    border-radius: 8px;
+    border: 2px solid gray;
+    /* Change border color */
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: grab;
+    transition: background 0.3s, border 0.3s, transform 0.3s;
+}
+
+.task:hover {
+    background: #6987ff;
+    /* Change background color on hover */
+    border: 2px solid darkgrey;
+    /* Change border color on hover */
+    transform: scale(1.02);
+    /* Add a slight scale effect on hover */
+}
+
+/* Style the Checkbox */
+.task .MuiSvgIcon-root {
+    color: grey;
+    /* Change the Checkbox color */
+}
+
+/* Style the text content */
+.task p {
+    flex-grow: 1;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+    /* Change text color */
+}
+
+/* Text style on hover */
+.task:hover p {
+    color: #fff;
+    /* Change text color on hover */
+}
+
+/* Style the TrashIcon */
+.task .TrashIcon {
+    cursor: pointer;
+    color: rgb(48, 56, 60);
+    /* Change Trash 0.7; /* Reduce opacity when dragging */
+}
